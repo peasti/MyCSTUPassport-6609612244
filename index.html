@@ -29,7 +29,25 @@
 
       <div class="pos">
         <!-- <img src="image/photome.jpg" alt="This is my picture" style="width: 20%;"> --> 
-        <button type="button"><span></span>About Me</button>
+        <button id="am" type="button" onclick="showme()"><span></span>About Me</button>
+
+        <div id="myDiv" style="visibility:hidden">
+          <br><pre id="forpre">NAME:   Sirawich Yimsuan</pre><br><br>
+          <pre id="forpre">NICK NAME:   Peet</pre><br><br>
+          <pre id="forpre">HOMETOWN:   Phetchaburi</pre><br><br>
+          <pre id="forpre">GRADUATED:   PCSHS Phetchaburi</pre><br><br>
+          <pre id="forpre">HOBBY:   Play game , Read novel</pre>
+        </div>
+
+        <script>
+          const div = document.getElementById("am");
+          div.addEventListener("click", (e) => {e.preventDefault()});
+
+          function showme() {
+            const div = document.getElementById("myDiv");
+            div.style.visibility = "visible";
+          }
+        </script>
       </div>
       
 

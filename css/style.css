@@ -88,7 +88,7 @@ img {
 }
 
 .pos {
-  margin: 5% 10% auto;
+  margin: 20% 10% auto;
   width: 100%;
   position: absolute;
   transform: translateY(-50%);
@@ -98,7 +98,7 @@ button {
   width: 200px;
   padding: 15px 0;
   text-align: center;
-  margin: 20px 10px;
+  margin: 30px 10px;
   border-radius: 25px;
   font-weight: bold;
   border: 2px solid rgb(127, 255, 212);
@@ -127,4 +127,17 @@ button:hover span {
 
 button:hover {
   border: none;
+}
+
+#myDiv {
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: space-between;
+  color: white;
+}
+
+#forpre {
+  font-family: sans-serif;
+  color: white;
+  width: 100%;
 }
