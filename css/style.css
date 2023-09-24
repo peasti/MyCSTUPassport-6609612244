@@ -1,15 +1,26 @@
-*{border: rgba(0, 0, 0, 0) 1px solid;}
+*{
+  border: rgba(0, 0, 0, 0) 1px solid;
+  margin: 0;
+  padding: 0;
+}
 
 style {
   font-family: sans-serif;
 }
+
+h2 {color: white;}
+h4 {color: white;}
+pre {color: white; font-family: Arial;}
+a {color: rgb(127, 255, 212);}
+
 img {
   border: rgb(127, 255, 212) 4px solid;
   border-radius: 50%;
   display: block;
-  margin: auto;
+  margin-left: 10%;
   margin-top: 10%;
 }
+
 .bg {
   width: 100vw;
   height: 100vh;
@@ -17,13 +28,25 @@ img {
   background-size: cover;
   background-position: center;
 }
-/* #rectangle {
+
+.con {
   width: 100vw;
-  height: 100px;
-  background: rgba(127, 255, 212, 0.7);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
-#black {
-  width: 100vw;
-  height: 30px;
-  background: rgba(0, 0, 0, 0.7);
-} */
+
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
