@@ -29,16 +29,17 @@
 
       <div class="pos">
         <!-- <img src="image/photome.jpg" alt="This is my picture" style="width: 20%;"> --> 
-        <button id="am" type="button" onclick="showme()"><span></span>About Me</button>
-
+        <button id="am" type="button" onclick="showme()" style="left: 10%;"><span></span>About Me</button>
+        
         <div id="myDiv" style="visibility:hidden">
-          <br><pre id="forpre">NAME:   Sirawich Yimsuan</pre><br><br>
-          <pre id="forpre">NICK NAME:   Peet</pre><br><br>
-          <pre id="forpre">HOMETOWN:   Phetchaburi</pre><br><br>
-          <pre id="forpre">GRADUATED:   PCSHS Phetchaburi</pre><br><br>
-          <pre id="forpre">HOBBY:   Play game , Read novel</pre>
+          <img src="image/photome.jpg" alt="This is my picture" style="width: 20%; position: absolute; left: 50%;">
+          <br><pre id="forpre" style="position: absolute; left: 10%;">NAME:   Sirawich Yimsuan</pre><br><br>
+          <pre id="forpre" style="position: absolute; left: 10%;">NICK NAME:   Peet</pre><br><br>
+          <pre id="forpre" style="position: absolute; left: 10%;">HOMETOWN:   Phetchaburi</pre><br><br>
+          <pre id="forpre" style="position: absolute; left: 10%;">GRADUATED:   PCSHS Phetchaburi</pre><br><br>
+          <pre id="forpre" style="position: absolute; left: 10%;">HOBBY:   Play game , Read novel</pre>
         </div>
-
+        
         <script>
           const div = document.getElementById("am");
           div.addEventListener("click", (e) => {e.preventDefault()});
@@ -53,33 +54,31 @@
 
      </div>
 
-     <div class="con" style="background-color: rgba(127, 255, 212, 0.9);">
+     <div class="con" style="background-color: rgba(255, 255, 255, 0.9);">
+       <div class="wpos">
+         <button id="com" type="button" onclick="rat()" style="color: rgb(0, 0, 0); left: 10%;"><span></span>Contact Me</button>
+
+         <div id="Memy" style="visibility:hidden">
+          <video src="VDO/VIDme.mp4" style="width: 30%; position: absolute; left: 50%; border: solid rgb(127, 255, 212) 2px;" controls>
+            Video not supported
+          </video>
+          <br><pre id="thpre" style="position: absolute; left: 10%;">Phone:   064-765-1436</pre><br><br>
+          <pre id="thpre" style="position: absolute; left: 10%;">IG:   <a href="https://www.instagram.com/_peasti_/" style="color: rgb(127, 255, 212);">_peasti_</a></pre><br><br>
+          <pre id="thpre" style="position: absolute; left: 10%;">FACEBOOK:   Sirawich Yimsuan</pre><br><br>
+          <pre id="thpre" style="position: absolute; left: 10%;">ID Line:   peasti</pre>
+        </div>
+        
+        <script>
+          const ct = document.getElementById("com");
+          ct.addEventListener("click", (e) => {e.preventDefault()});
+
+          function rat() {
+            const ct = document.getElementById("Memy");
+            ct.style.visibility = "visible";
+          }
+        </script>
+       </div>
      </div>
-     <!-- <details style="color: rgb(127, 255, 212); position: absolute; left: 450px; top: 125px;">
-        <summary><h3><pre>About Me</pre></h3></summary>
-        <h5><pre>
-          
-ชื่อ        :  นายสิรวิชญ์ ยิ้มศรวล
-ชื่อเล่น     :  พีท
-hometown  :  เพชรบุรี
-graduated :  PCSHS Phetchaburi
-hobby     :  เล่นเกม อ่านนิยาย<br/>
-        </pre></h5>
-        <h3><pre>My Video</pre></h3>
-        <video src="VDO/VIDme.mp4" width="50%" style="border: solid wheat 4px;" controls>
-          Video not supported
-        </video>
-      </details>
-      <details style="color: rgb(127, 255, 212); position: absolute; left: 710px; top: 125px;">
-        <summary><h3><pre>ช่องทางติดต่อ</pre></h3></summary>
-        <h5><pre>
-          
-โทร      :  064-765-1436
-IG       :  <a href="https://www.instagram.com/_peasti_/">_peasti_</a>
-facebook :  Sirawich Yimsuan
-ID Line  :  peasti
-        </pre></h5>
-      </details> -->
 
   </body>
 

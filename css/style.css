@@ -2,6 +2,7 @@
   border: rgba(0, 0, 0, 0) 1px solid;
   margin: 0;
   padding: 0;
+  /* border: 1px red solid; */
 }
 
 style {
@@ -81,6 +82,10 @@ img {
   margin-top: 80px;
 }
 
+.main h1:hover {
+  color: rgb(127, 255, 212);
+}
+
 .main p {
   margin: 20px auto;
   font-weight: 100;
@@ -88,10 +93,18 @@ img {
 }
 
 .pos {
-  margin: 20% 10% auto;
+  margin: 20% auto;
   width: 100%;
   position: absolute;
   transform: translateY(-50%);
+}
+
+.wpos {
+  margin: 20% auto;
+  width: 100%;
+  position: absolute;
+  transform: translateY(-50%);
+  color: rgb(0, 0, 0);
 }
 
 button {
@@ -132,12 +145,21 @@ button:hover {
 #myDiv {
   margin-bottom: 20px;
   width: 100%;
-  justify-content: space-between;
   color: white;
 }
 
 #forpre {
   font-family: sans-serif;
   color: white;
+}
+
+#Memy {
+  margin-bottom: 20px;
   width: 100%;
+  color: rgb(0, 0, 0);
+}
+
+#thpre {
+  font-family: sans-serif;
+  color: rgb(0, 0, 0);
 }
