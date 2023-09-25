@@ -2,7 +2,6 @@
   border: rgba(0, 0, 0, 0) 1px solid;
   margin: 0;
   padding: 0;
-  /* border: 1px red solid; */
 }
 
 style {
@@ -156,10 +155,5 @@ button:hover {
 #Memy {
   margin-bottom: 20px;
   width: 100%;
-  color: rgb(0, 0, 0);
-}
-
-#thpre {
-  font-family: sans-serif;
   color: rgb(0, 0, 0);
 }
