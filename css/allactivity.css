@@ -57,56 +57,31 @@
 }
 
 img {
+    border: rgb(127, 255, 212) 2px solid;
     display: block;
 }
 
-button {
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 10px 10px -10%;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid rgb(127, 255, 212);
-    background: transparent;
-    color: white;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-  }
-  
-span {
-    background: rgb(127, 255, 212);
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
-}
-  
-button:hover span {
-    width: 100%;
-}
-  
-button:hover {
-    border: none;
+summary {
+    color: transparent;
 }
 
-.butbar {
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+#forpre {
+    font-family: arial;
+    font-size: 20px;
+    color: white
+}
+
+h1 {
     color: white;
 }
-  
-.butbar ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
+
+details summary h1:hover {
+    color: rgb(127, 255, 212);
+}
+
+details ul li {
+    left: 25px;
+    color: rgb(127, 255, 212);
+    list-style-position: inside;
+    font-family: arial;
 }
