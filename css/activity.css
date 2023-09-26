@@ -50,12 +50,13 @@
 }
 
 .pos {
-    margin: 20% auto;
+    margin: auto;
     width: 100%;
     position: absolute;
     transform: translateY(-50%);
 }
 
 img {
-    width: 10%;
+    display: block;
 }
+
