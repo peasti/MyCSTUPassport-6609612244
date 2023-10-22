@@ -157,3 +157,53 @@ button:hover {
   width: 100%;
   color: rgb(0, 0, 0);
 }
+
+.ps1 {
+  left: 10%;
+}
+
+.ps2 {
+  width: 20%; position: absolute; left: 50%;
+}
+
+.ps3 {
+  width: 30%; position: absolute; left: 50%;
+}
+
+.pspre {
+  position: absolute; left: 10%;
+}
+
+@media only screen and(max-width: 768px) {
+  .pst1 {
+    left: 50%;
+  }
+  .pst2 {
+    width: 20%;
+    margin-left: -10%;
+  }
+  .pst3 {
+    width: 30%;
+    margin-left: -15%;
+  }
+  .pstpre {
+    text-align: center;
+  }
+}
+
+@media only screen and(max-width: 992px) {
+  .pst-1 {
+    left: 50%;
+  }
+  .pst-2 {
+    width: 20%;
+    margin-left: -10%;
+  }
+  .pst-3 {
+    width: 30%;
+    margin-left: -15%;
+  }
+  .pst-pre {
+    text-align: center;
+  }
+}
