@@ -145,6 +145,7 @@ button:hover {
   margin-bottom: 20px;
   width: 100%;
   color: white;
+  visibility: hidden;
 }
 
 #forpre {
@@ -156,54 +157,79 @@ button:hover {
   margin-bottom: 20px;
   width: 100%;
   color: rgb(0, 0, 0);
+  visibility: hidden;
 }
 
-.ps1 {
-  left: 10%;
+@media only screen and (min-width: 769px) {
+  .ps1 {
+    left: 10%;
+  }
+  
+  .ps2 {
+    width: 20%; position: absolute; left: 50%;
+  }
+  
+  .ps3 {
+    width: 30%; position: absolute; left: 50%;
+  }
+  
+  .pspre {
+    position: absolute; left: 10%;
+  }
 }
 
-.ps2 {
-  width: 20%; position: absolute; left: 50%;
-}
 
-.ps3 {
-  width: 30%; position: absolute; left: 50%;
-}
-
-.pspre {
-  position: absolute; left: 10%;
-}
-
-@media only screen and(max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .pst1 {
-    left: 50%;
+    left: 35%;
+    top: 150px;
   }
   .pst2 {
+    position: absolute;
     width: 20%;
+    top: 500px;
+    left: 50%;
     margin-left: -10%;
   }
   .pst3 {
+    position: absolute;
     width: 30%;
+    top: 500px;
+    left: 50%;
     margin-left: -15%;
   }
   .pstpre {
     text-align: center;
+    top: 200px;
   }
+  #myDiv {visibility: visible;}
+  #memy {visibility: visible;}
+  button {visibility: hidden;}
 }
 
-@media only screen and(max-width: 992px) {
+@media only screen and (max-width: 576px) {
   .pst-1 {
-    left: 50%;
+    left: 30%;
+    top: 30px;
   }
   .pst-2 {
+    position: absolute;
     width: 20%;
+    top: 500px;
+    left: 50%;
     margin-left: -10%;
   }
   .pst-3 {
+    position: absolute;
     width: 30%;
+    top: 500px;
+    left: 50%;
     margin-left: -15%;
   }
   .pst-pre {
     text-align: center;
   }
+  #myDiv {visibility: visible;}
+  #memy {visibility: visible;}
+  button {visibility: hidden;}
 }
